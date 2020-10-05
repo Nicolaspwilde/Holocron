@@ -17,7 +17,7 @@ int main()
     printf("\nAssume that P(n) is true for n=6.");
     ls=ss(n);
     printf("\nP(%d) = %d",n++,ls);
-    printf("\nNow we have to prove that P(n) is true for n = 7.\n");
+    printf("\n Now prove that P(n) is true for n = 7./+\n");
     ls=ss(n);// now for n=7;
     //ls+=n*n*n;
     rs=(n*n*(n+1)*(n+1))/4;
@@ -26,3 +26,4 @@ int main()
     printf("\nTherefore, P(n) is true for all positive integers.");
     return 0;
 }
+Additional updates are needed and work might be done
