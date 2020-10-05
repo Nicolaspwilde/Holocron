@@ -14,7 +14,7 @@ int main()
     int i,n=6,ls,k,rs;
     printf("P(n):   1^3 + 2^3 + 3^3 +.......+ n^3 = (1 + 2 + 3 +......+ n)^2");
     printf("\nFor n=1 we have,\nL.H.S = 1^3 = 1\nR.H.S. = 1^2 = 1\nL.H.S. = R.H.S.\nTherefore, P(1) holds.\n");
-    printf("\nAssume that P(n) is true for n=6 creating a new thing here.");
+    printf("\nAssume that P(n) is true for n=6 creating a new thing herex x.");
     ls=ss(n);
     printf("\nP(%d) = %d",n++,ls);
     printf("\n Now prove that P(n) is true for n = 7./+\n");
