@@ -27,9 +27,9 @@ int main()
         default:
             cout<<"enter another operator"<<endl;
             break;
-        }
+    }
 
- return 0;
+return 0 ;
 
 
 
