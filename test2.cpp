@@ -59,7 +59,7 @@ int main(){
     cin>>N;
     int arr[N];
 
-    for(int i=0;i<N-1;i++){
+    for(int i=0;i<=N-1;i++){
         cin>>arr[i];
     }
      MergeSort(arr, 0 ,N-1);
