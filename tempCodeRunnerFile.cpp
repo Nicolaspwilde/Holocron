@@ -1,15 +1,37 @@
 #include <iostream>
 using namespace std;
+
 int main()
 {
-    int A1,B1,Sum;
-    cout<<"Hello World"<<endl;
-    cout<<"Abhimanyu"<<endl;
-    cout<<"Enter the number A1" <<endl;
-    cin>>A1;
-    cout<<"Enter the number B1" <<endl;
-    cin>>B1;
-    Sum = A1 + B1;
-    cout<<"Sum of"<<A1<<"+"<<B1<<"="<<Sum ;
+    int num;
+    cin>>num;
+    
+    if (num > 0)
+        cout << "The number is positive";
+    else if (num < 0)
+        cout << "The number is negative";
+    else
+        cout << "Zero";
+    
+    return 0;
+}
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int num = -12;
+    if (num >= 0)
+    {
+        if (num == 0)
+            cout << "Zero";
+        else
+            cout << "The number is positive";
+    }
+    else
+            cout << "The number is negative";
+    
     return 0;
 }
