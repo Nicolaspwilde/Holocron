@@ -1,37 +1,26 @@
-#include <iostream>
-using namespace std;
-
-int main()
-{
-    int num;
-    cin>>num;
-    
-    if (num > 0)
-        cout << "The number is positive";
-    else if (num < 0)
-        cout << "The number is negative";
-    else
-        cout << "Zero";
-    
-    return 0;
-}
-
-
 #include<iostream>
 using namespace std;
-
-int main()
+int main ()
 {
-    int num = -12;
-    if (num >= 0)
-    {
-        if (num == 0)
-            cout << "Zero";
-        else
-            cout << "The number is positive";
-    }
-    else
-            cout << "The number is negative";
-    
-    return 0;
+int n;
+cin>>n;
+for(int i=1;i<=n;i++){
+        for(int j=1;j<=n-i;j++){
+                cout<<" ";
+        }
+        for(int j=1;j<=2*i-1;j++){
+                cout<<"*";
+        }
+        cout<<endl;
+}
+for(int i=n;i>=1;i--){
+        for(int j=1;j<=n-i;j++){
+                cout<<" ";
+        }
+        for(int j=1;j<=2*i-1;j++){
+                cout<<"*";
+        }
+        cout<<endl;
+}
+return 0;
 }
