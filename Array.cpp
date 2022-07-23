@@ -7,12 +7,8 @@ int main(){
   for(int i=0;i<n;i++){
     cin>>arr[i];
   }
-  int maxNo=INT_MIN;
-  int minNo=INT_MAX;
   for(int i=0;i<n;i++){
-        maxNo=max(arr[i],maxNo);
-        minNo=min(arr[i],minNo);
-        cout<<maxNo<<;
-    }
+    cout<<arr[i]<<" ";
+  }
 return 0;
 }

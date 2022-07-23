@@ -12,7 +12,8 @@ int main(){
   for(int i=0;i<n;i++){
         maxNo=max(arr[i],maxNo);
         minNo=min(arr[i],minNo);
-        cout<<maxNo<<;
     }
+  
+  cout<<maxNo<<" "<<minNo;
 return 0;
 }
