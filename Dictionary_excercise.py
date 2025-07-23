@@ -4,7 +4,7 @@ while True :
     cars_name = input("Enter the car Name: ")
     if cars_name == 'stop':
         break
-    Cars_rating[cars_name] = input("Enter rating out of 5 :")
+    Cars_rating[cars_name] = float(input("Enter rating out of 5 :"))
 
 print(f"{Cars_rating} \n")
 dictionary = {}
@@ -18,3 +18,16 @@ for i in range (len(key)):
         dictionary[key[i]] = None
 print("Final Dictionary")
 print(dictionary)
+
+#forking with different ideas
+
+while True:
+    key = input("key")
+    if key.lower() == 'stop' :
+        break
+    value = input("value")
+    dictionary[key] = value
+print(dictionary)
+
+my_value = dictionary.get('apple','No apple was found.')
+print(my_value)
