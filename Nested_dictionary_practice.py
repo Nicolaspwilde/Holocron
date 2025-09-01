@@ -2,18 +2,18 @@ cities = {
     "Paris": {
         "country": "France",
         "population_millions": 11,
-        "famous_for": "Eiffel Tower"
+        "famous_for": "Eiffel Tower",
     },
     "Tokyo": {
         "country": "Japan",
         "population_millions": 37,
-        "famous_for": "Technology and Sushi"
+        "famous_for": "Technology and Sushi",
     },
     "New York": {
         "country": "USA",
         "population_millions": 19,
-        "famous_for": "Statue of Liberty"
-    }
+        "famous_for": "Statue of Liberty",
+    },
 }
 city_input = input("enter the city : ").title()
 if city_input in cities:
@@ -21,7 +21,7 @@ if city_input in cities:
     print(f"{city_input} is in {cities[city_input]['country']} ")
     print(f"{city_input} has population of {cities[city_input]['population_millions']}")
     print(f"It is famous for {cities[city_input]['famous_for']}")
-else :
+else:
     print("the city is not in our list")
-    for city in cities :
+    for city in cities:
         print(city)

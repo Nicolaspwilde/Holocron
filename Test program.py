@@ -1,4 +1,4 @@
-players = ['Michael', 'Ralph', 'David', 'Scott', 'Pete', 'Joe', 'Chris', 'Andy']
+players = ["Michael", "Ralph", "David", "Scott", "Pete", "Joe", "Chris", "Andy"]
 print("Full team list:")
 for member in players:
     print(member)

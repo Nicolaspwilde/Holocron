@@ -1,9 +1,10 @@
 import time
-list_of_guest = ['Nishtha','Sanchit','Abhishek','Abhaash','Nishtha']*300
+
+list_of_guest = ["Nishtha", "Sanchit", "Abhishek", "Abhaash", "Nishtha"] * 300
 
 start_time = time.time()
 
-guest = 'Nishtha'.lower()
+guest = "Nishtha".lower()
 counter = 0
 non_interest_count = 0
 

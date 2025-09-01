@@ -1,15 +1,15 @@
 # Dictionary in python is a collection of key value pairs. Each key is connected to a value and
 # you can use the key to access the value associated with it.
 
-Dictionary_sample = {'Red' :'45','green' : '67'}
+Dictionary_sample = {"Red": "45", "green": "67"}
 
-print(Dictionary_sample['Red'])
+print(Dictionary_sample["Red"])
 
-points = Dictionary_sample['green']
+points = Dictionary_sample["green"]
 print(f"the points you earned is {points}")
 
-Dictionary_sample['Blue'] =  input("Enter the dictionary value")
-Dictionary_sample['yellow'] = 80
+Dictionary_sample["Blue"] = input("Enter the dictionary value")
+Dictionary_sample["yellow"] = 80
 print(Dictionary_sample)
 
 empty_dictionary = {}
@@ -27,10 +27,10 @@ print(empty_dictionary)
 empty_dictionary = {}
 
 # Enter all keys
-keys = input("Enter all keys separated by spaces: ").split(',')
+keys = input("Enter all keys separated by spaces: ").split(",")
 
 # Enter all values
-values = input("Enter all values separated by spaces: ").split(',')
+values = input("Enter all values separated by spaces: ").split(",")
 
 # Combine them into the dictionary
 for i in range(len(keys)):
